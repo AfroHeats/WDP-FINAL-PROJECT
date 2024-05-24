@@ -1,0 +1,158 @@
+/* General styles */
+body {
+	background-color: #F2F0F6;
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: #150627;
+  color: #360370;
+  padding: 10px 0;
+}
+
+.nav.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #8A61B8;
+}
+
+.nav #car-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Section styles */
+.shop.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.shop .section-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Product styles */
+.product {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.product div {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 230px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.product p {
+  font-size: 16px;
+  color: #555;
+}
+
+.product .btn,
+.product .btn4,
+.product .btn1,
+.product .btn3 {
+  background-color: #C8ABE9;
+  color: #05010A;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.product .btn:hover,
+.product .btn4:hover,
+.product .btn1:hover,
+.product .btn3:hover {
+  background-color: #555;
+}
+
+/* Cart styles */
+#cart-section {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#cart {
+  margin-top: 20px;
+}
+
+#cart p {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Footer styles */
+footer {
+  background-color: #A88FDA;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  font-size: 14px;
+  color: #333;
+}
+
+footer table {
+  margin: 0 auto 20px auto;
+}
+
+footer th {
+  text-align: left;
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+footer li {
+  list-style: none;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+footer a img {
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+footer a img:hover {
+  transform: scale(1.1);
+}
+
+footer .copyright {
+  margin-top: 10px;
+}

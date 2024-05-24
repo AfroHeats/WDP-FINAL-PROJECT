@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="finals.css">
+  <title>AFRO HEATS</title>
+  <script src="finals.js" defer></script>
+  <!-- Add Boxicons CSS link -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+    <div class="nav container">
+      <a href="#" class="logo">Online Thrift Shop</a>
+      <i class='bx bx-shopping-bag' id="car-icon"> 0</i>
+    </div>
+  </header>
+  <section class="shop container">
+    <h2 class="section-title">Shop Products</h2>
+  </section>
+  <section class="product">
+    <div>
+      <img src="TOTE.jpg" width="230" height="270" alt="cream">
+      <h3>CREAM</h3>
+      <p>Beige color of this tote bag</p>
+      <p>Price: 999 PESOS</p>
+      <button class="btn" onclick="addToCart('CREAM', 999)">Add to Cart</button>
+    </div>
+    <div>
+      <img src="JACKET.jpg" width="230" height="270" alt="black">
+      <h3>BLACK</h3>
+      <p>Vintage style corduroy trucker jacket</p>
+      <p>Price: 1,499 PESOS</p>
+      <button class="btn4" onclick="addToCart('BLACK', 1499)">Add to Cart</button>
+    </div>
+    <div class="c">
+      <img src="BEAR.jpg" width="230" height="270" alt="MATCHA">
+      <h3>MATCHA</h3>
+      <p>Grey bear Polo Shirt</p>
+      <p>Price: 350 PESOS</p>
+      <button class="btn" onclick="addToCart('MATCHA', 350)">Add to Cart</button>
+    </div>
+  </section>
+  <!-- Separate cart section -->
+  <section id="cart-section">
+    <div id="cart"></div>
+    <button class="btn1" onclick="displayCart()">Show Cart</button>
+  </section>
+  <button class="btn3" onclick="checkout()">CHECKOUT</button>
+
+  <footer>
+    <p>
+      <b>
+        <font face="tahoma">
+          <center>
+            <hr>
+            <table>
+              <th>
+                <li>ABOUT</li>
+                <li>Leather Texture: Smooth</li>
+                <li>Material: 100% COTTON</li>
+              </th>
+              <th>
+                <li>SERVICES</li>
+                <li>Email: AFRO.HEATS@gmail.com</li>
+                <li>63+ 9123456789</li>
+              </th>
+            </table>
+            <h2>
+              <font face="Tahoma">Follow Us!</font>
+            </h2>
+            <a href="https://www.facebook.com/afro.heats" target="blank">
+              <img src="FB.png" width="50" height="50"></a>
+            <a href="https://www.instagram.com/afro.heats?igsh=aHp5Z2dmNmQ1aWhi" target="_blank">
+              <img src="IG.png" width="50" height="50"></a>
+            <a href="https://www.tiktok.com/@afro.heat?_t=8makxOs8lh2&_r=1" target="_blank">
+              <img src="TIKTOK.png" width="50" height="50"></a>
+            <p class="copyright">AFRO HEATS &#169; 2017</p>
+          </center>
+        </font>
+      </b>
+    </p>
+  </footer>
+</body>
+</html>
